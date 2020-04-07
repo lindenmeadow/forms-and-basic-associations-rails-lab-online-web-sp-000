@@ -5,7 +5,7 @@ class SongsController < ApplicationController
   end
 
   def show
-    
+
   end
 
   def new
@@ -51,4 +51,3 @@ class SongsController < ApplicationController
     params.require(:song).permit(:title)
   end
 end
-
